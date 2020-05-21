@@ -1,0 +1,58 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" href="survey_form_css">
+
+    </head>
+
+    <body>
+        <h1 id="title">Intake form for student tutoring</h1>
+        <p id="description">Matching your needs with a tutor</p>
+
+        <form id="survey-form">
+            <fieldset>
+                <legend>Form</legend>
+                <label id="name-label" for="name">Full name:</label> <!--create label-->
+                <input type="text" id="name" name="fullname" placeholder="Eg. Vinh Nguyen" required> <!--create input box-->
+                <br>
+                <label id="email-label" for="email">Email address:</label>
+                <input type="email" id="email" name="email" placeholder="Eg. 12345@gmail.com" required>
+                <br>
+                <label id="number-label" for="number">Age:</label>
+                <input type="number" id="number" name="age" min="0" max="100" placeholder="Eg. 12" required>
+                <br>
+                <label for="dropdown">Tutor subject:</label>
+                <select name="subject" id="dropdown">
+                    <option value="math">Math</option>
+                    <option value="english">English</option>
+                    <option value="socialscience">Social Sciences</option>
+                </select>
+                <br>
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <p>I have the following technologies available to me:</p>
+                <input type="checkbox" id="tech1" name="tech1" value="Laptop">
+                <label for="tech1">Laptop</label>
+                <input type="checkbox" id="tech2" name="tech2" value="Wifi">
+                <label for="tech2">Wi-fi</label>
+                <input type="checkbox" id="tech3" name="tech3" value="Calculator">
+                <label for="tech3">Calculator</label>
+                <br><br>
+                <label for="addcomm">Additional comments:</label>
+                <br>
+                <textarea id="addcomm">Any additional information you would like for us to know.</textarea>
+                <br><br>
+                <input id="submit" type="submit" value="Submit mofucka">
+            </fieldset>
+
+        </form>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    </body>
+   
+
+</html>

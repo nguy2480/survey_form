@@ -1,0 +1,21 @@
+#title {
+    background-color: black;
+    color: white;
+}
+
+#description {
+    background-color: darkgrey;
+    color: white;
+}
+
+h1 {
+    color:  blue;
+}
+
+body {
+    background-color: grey;
+}
+
+form {
+    background-color: orange;
+}
